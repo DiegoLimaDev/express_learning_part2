@@ -1,2 +1,8 @@
 20230404	21:40:39	06aa5fbb-833c-4505-9344-4799beb92115	Error: Not allowed by CORS
 20230404	21:42:18	3d45f483-d5aa-448c-9c56-c33e5d62566c	Error: Not allowed by CORS
+20230405	12:47:46	68990e91-a3c9-40b3-8f01-211e89e96434	Error: ENOENT: no such file or directory, stat '/home/diego/Desktop/Workspace/nodejs/express_intro/routes/views/index.html'
+20230405	13:01:49	a7dc18d2-11bd-4e39-b20b-e00e05022ba3	Error: ENOENT: no such file or directory, stat '/home/diego/Desktop/Workspace/nodejs/express_intro/data/data.json'
+20230405	13:02:33	81684dea-498d-4156-8598-648027ef1a80	Error: ENOENT: no such file or directory, stat '/home/diego/Desktop/Workspace/nodejs/express_intro/data/data.json'
+20230405	13:10:09	2a2ad4d8-4b1c-4799-92e5-dd9609e28f9a	TypeError: data.find is not a function
+20230405	13:12:19	a37d6572-e00c-4ab0-a4b1-67cdbf83b7f4	TypeError: data.filter is not a function
+20230405	13:12:43	1c079fa5-63d3-40ba-af03-3285b7fecbcd	TypeError: data.find is not a function
