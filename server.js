@@ -6,31 +6,15 @@ const PORT = process.env.PORT || 8000;
 const { logger } = require('./middleware/logEvents');
 const { errorHandler } = require('./middleware/errorHandler');
 
-const whitelist = ['http://localhost:8000'];
-const corsOptions = {
-  origin: (origin, callback) => {
-    if (whitelist.indexOf(origin) !== -1 || !origin) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-  },
-  optionsSuccessStatus: 200,
-};
-
 app.use(express.urlencoded({ extended: false }));
 
 app.use(logger);
 
-app.use(cors(corsOptions));
+app.use(cors(require('./config/corsOptions')));
 
 app.use(express.json());
 
 app.use(express.static(path.join(__dirname, '/public')));
-
-app.use('/subdir', express.static(path.join(__dirname, '/public')));
-
-app.use('/subdir', require('./routes/subdir'));
 
 app.use('/', require('./routes/root'));
 
@@ -47,24 +31,6 @@ app.get(
     res.send('Hello World!');
   },
 );
-
-// chaining route handlers
-const one = (req, res, next) => {
-  console.log('one');
-  next();
-};
-
-const two = (req, res, next) => {
-  console.log('two');
-  next();
-};
-
-const three = (req, res) => {
-  console.log('three');
-  res.send('Finished!');
-};
-
-app.get('/chain(.html)?', [one, two, three]);
 
 app.all('*', (req, res) => {
   res.status(404);

@@ -53,3 +53,11 @@
 20230405	13:18:36	22f36969-7710-4f98-b61e-1bda75e574ce	DELETE	undefined	/employees
 20230405	13:19:11	79fa17d2-0a3e-4715-8889-52b55f94a2d9	PUT	undefined	/employees
 20230405	13:19:35	0afdf156-a4c5-4000-8b86-870e8bfd9391	GET	undefined	/employees/2
+20230407	19:03:32	552f5f96-435d-4bb5-a369-fc1877b141ae	GET	undefined	/employee
+20230407	19:03:54	ddc6834a-1556-4f2e-a182-c669dcc7eff8	GET	undefined	/
+20230407	19:03:55	3c3ddc53-bcec-4133-a454-553577c0e598	GET	undefined	/css/style.css
+20230407	19:03:55	66ed695c-adaf-4f00-8622-731e236cccf9	GET	undefined	/favicon.ico
+20230407	19:04:00	f6c2a547-04df-4c5a-a8f1-99b411edbe0d	GET	undefined	/employees/
+20230407	19:04:04	d89e8dd3-5111-45c6-b73a-ed79841a90fe	GET	undefined	/employees
+20230407	19:05:17	95ea5090-cc8e-42a1-8817-592500bcdade	GET	undefined	/employees/:id
+20230407	19:05:21	5efe773d-430e-4f45-adf2-27a734b46ccc	GET	undefined	/employees/1
