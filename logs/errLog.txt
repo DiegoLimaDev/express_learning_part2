@@ -6,3 +6,6 @@
 20230405	13:10:09	2a2ad4d8-4b1c-4799-92e5-dd9609e28f9a	TypeError: data.find is not a function
 20230405	13:12:19	a37d6572-e00c-4ab0-a4b1-67cdbf83b7f4	TypeError: data.filter is not a function
 20230405	13:12:43	1c079fa5-63d3-40ba-af03-3285b7fecbcd	TypeError: data.find is not a function
+20230413	11:16:27	d267a94d-f050-4107-91aa-721b36442482	SyntaxError: Unexpected token u in JSON at position 1
+20230413	11:43:47	901629e1-3c97-40d3-ac6e-7b480f77e3f2	SyntaxError: Unexpected token u in JSON at position 1
+20230413	11:44:04	2ffbaeaf-c7fb-4030-a23a-2789ddc9581c	SyntaxError: Unexpected token u in JSON at position 1
